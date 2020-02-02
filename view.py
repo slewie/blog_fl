@@ -4,5 +4,6 @@ from flask import render_template
 
 @app.route('/')
 def index():
-    name = ''
+    name = 'World'
     return render_template('index.html', n=name)
+
